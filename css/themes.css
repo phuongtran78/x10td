@@ -16294,6 +16294,11 @@ button.bg-white:focus {
   text-shadow: 1px 1px 6px #706560 !important;
 }
 
+.dot-slide {
+  background: #b21f2d;
+  color: #b21f2d;
+}
+
 .logo-size {
   max-width: 150px;
   height: auto;
@@ -21285,7 +21290,7 @@ input.checkbox-primary[type="checkbox"] {
 }
 
 .bullet-one-page-scroll-navigation.nav-dark {
-  --nav-color: #000;
+  --nav-color: #bf202f;
 }
 
 .bullet-one-page-scroll-navigation .nav-link {
