@@ -290,9 +290,26 @@
               <h2 class="fs-38 lh-129 mb-7">
                 Bạn có muốn sở hữu một thương hiệu mỹ phẩm độc quyền?
               </h2>
-              <form>
+
+              <!-- <form action="https://submit-form.com/SI9cx4Nd">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name" required="" />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required="" />
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                  required=""
+                ></textarea>
+                <button type="submit">Send</button>
+              </form> -->
+
+              <form action="https://submit-form.com/SI9cx4Nd">
                 <div class="row mb-6">
                   <div class="col-sm-6 mb-6 mb-sm-0">
+                    <label class="hide" for="name">Name</label>
                     <input
                       style="
                         background-color: #fff;
@@ -301,12 +318,15 @@
                         box-shadow: 0 0 8px #bbbbbb;
                       "
                       type="text"
+                      id="name"
+                      name="name"
                       class="form-control border-0"
                       placeholder="Tên của bạn"
                       required=""
                     />
                   </div>
                   <div class="col-sm-6">
+                    <label class="hide" for="email">Email</label>
                     <input
                       style="
                         background-color: #fff;
@@ -315,6 +335,8 @@
                         box-shadow: 0 0 8px #bbbbbb;
                       "
                       type="email"
+                      id="email"
+                      name="email"
                       class="form-control border-0"
                       placeholder="Địa chỉ Email"
                       required=""
@@ -322,7 +344,10 @@
                   </div>
                 </div>
                 <div class="form-group mb-4">
+                  <label class="hide" for="message">Message</label>
                   <textarea
+                    id="message"
+                    name="message"
                     style="
                       background-color: #fff;
                       outline: none !important;
@@ -533,6 +558,16 @@
     <script>
       AOS.init();
     </script>
+
+    <!-- recaptcha -->
+    <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcBz_0hAAAAAAmxEwnMQ-qD5RNJfLL4vxGlTlmL"></script>
+    <script>
+      grecaptcha.enterprise.ready(function() {
+          grecaptcha.enterprise.execute('6LcBz_0hAAAAAAmxEwnMQ-qD5RNJfLL4vxGlTlmL', {action: 'login'}).then(function(token) {
+             ...
+          });
+      });
+    </script> -->
     <!-- Theme scripts -->
     <script src="js/theme.js"></script>
     <svg
